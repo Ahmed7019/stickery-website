@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stickery</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="shortcut icon" href="images/sti.ckery black 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/solid.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/brands.css">
+    <link rel="stylesheet" href="src/input.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="gradient">
+
+    <header >
+        <div class="p-6 bg-white/50  backdrop-blur w-full fixed shadow-md">
+            <nav class="flex justify-between w-full ">
+                <a href="index.html" class="font-Rellieva text-3xl">sti.ckery</a>
+                <ul class="font-harlow flex items-center justify-between">
+                    <li><a rel="noopener" href="#products" class="mr-4">Our products</a></li>
+                    <li><a href="about.html"> About us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="p-4 bg-[#2A7684] backdrop-blur text-white  md:mb-32 relative md:top-16">
+            <!-- About us -->
+            <div class="flex justify-around sm:justify-center items-center">
+                <img src="images/sti.ckery white 1.png" alt="logo" class="w-[100px] object-contain self-start">
+                <div class="ml-4 ">
+                    <h1 class="text-2xl font-bold whitespace-nowrap">order your own <br > <span
+                            class="text-[#EAE421] text-4xl">STICKERS</span>
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="relative block ">
+            <div id="default-carousel" class="relative" data-carousel="slide">
+                <!-- Carousel wrapper -->
+                <div class="overflow-hidden relative h-72 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <span
+                            class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First
+                            Slide</span>
+                        <img src="images/spideypos.png"
+                            class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="images/spidey case.png"
+                            class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="images/spidemug.png"
+                            class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                    </div>
+                    <!-- Item 4  -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="images/img1 (1).jpg"
+                            class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="images/img1 (11).jpg"
+                            class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                    </div>
+                    <!-- Item 6 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="images/img1 (12).jpg" class=" block absolute top-1/2 left-1/2 w-full -translate-x-1/2
+                            -translate-y-1/2" alt="...">
+                    </div>
+                    <!-- Item 7 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="images/img1 (13).jpg"
+                            class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                    </div>
+                </div>
+                <!-- Slider indicators -->
+                <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1"
+                        data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                        data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                        data-carousel-slide-to="2"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                        data-carousel-slide-to="3"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                        data-carousel-slide-to="4"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 6"
+                        data-carousel-slide-to="5"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 7"
+                        data-carousel-slide-to="6"></button>
+                </div>
+                <!-- Slider controls -->
+                <button type="button"
+                    class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                    data-carousel-prev>
+                    <span
+                        class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                            </path>
+                        </svg>
+                        <span class="hidden">Previous</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                    data-carousel-next>
+                    <span
+                        class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                        <span class="hidden">Next</span>
+                    </span>
+                </button>
+            </div>
+        </section>
+
+
+
+        <section class="my-10 sm:px-10 md:px-20 ">
+            <div class="p-4 text-white">
+                <h2 class="text-2xl font-bold mb-4">Where we locate <i class="fas fas fa-location fa-sm"></i> </h2>
+                <img src="images/pyramid.jpg" class="w-full mb-4 rounded-lg overflow-hidden shadow-xl" alt="pyramids">
+                <p class="text-base sm:text-xl">Currently we provide our services in <span
+                        class="underline decoration-wavy underline-offset-8 decoration-white text-yellow-300 text-lg font-bold sm:text-2xl">Cairo</span></p>
+            </div>
+
+        </section>
+
+        <section>
+            <img src="images/twitter header.png" alt="header" class="w-full object-contain">
+        </section>
+
+
+        <section class="p-4 sm:p-10 md:px-20">
+            <a id="products" class="invisible"></a>
+            <h3 class="text-3xl font-bold mb-8 text-white md:text-4xl">Our products</h3>
+            <div class="grid grid-cols-4  rounded-lg border-4 border-solid border-white/50 gap-2 md:gap-6 overflow-hidden">
+                <img src="images/random.png" alt="" class="col-span-2 w-[200px] object-contain shadow-lg sm:w-full">
+                <img src="images/MBDTF.png" alt="" class="w-[350px] col-span-2 object-contain shadow-lg sm:w-full">
+                <img src="images/atot pos.png" alt="" class=" w-[200px] col-span-2 object-contain shadow-lg sm:w-full">
+                <img src="images/random1.png" alt="" class="w-[150px] col-span-2 object-contain shadow-lg sm:w-full">
+                <img src="images/ttgh.png" alt="" class="w-[250px] col-span-2 object-contain  shadow-lg sm:w-full">
+                <img src="images/luffypos.png" alt="" class=" col-span-2 w-[200px] row-span-2 object-contain  shadow-lg sm:w-full">
+                <img src="images/messi pos.png" alt="" class=" col-span-2 row-span-2 w-[200px] object-contain  shadow-lg sm:w-full">
+                <img src="images/TPAB.png" alt="" class="w-[150px] col-span-2 object-contain  shadow-lg sm:w-full">
+                <img src="images/VOICES.png" alt="" class="bg-blue-200 col-span-4 w-full object-contain  shadow-lg sm:w-full">
+                <img src="images/WAITT.png" alt="" class="w-full col-span-2 object-contain  shadow-lg sm:w-full">
+                <img src="images/img1 (8).jpg" alt="" class="w-full col-span-2   object-contain  shadow-lg sm:w-full">
+                <img src="images/img1 (9).jpg" alt="" class="w-[200px] object-contain  shadow-lg sm:w-full">
+                <img src="images/img1 (10).jpg" alt="" class=" w-[240px] object-contain  shadow-lg sm:w-full">
+                <img src="images/img1 (6).jpg" alt="" class="w-[250px]  object-contain  shadow-lg sm:w-full">
+                <img src="images/ISB.png" alt="" class="w-[200px] object-contain shadow-lg sm:w-full">
+                <img src="images/TCU.png" alt="" class=" w-[400px] col-span-4  object-contain  shadow-lg sm:w-full">
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black text-white">
+        <div class="p-4 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:p-10 md:px-20 md:gap-8">
+            <div class="flex flex-col items-center text-center">
+                <h3 class="font-harlow text-base">Sticker your personality</h3>
+                <img src="images/sti.ckery white 1.png" alt="stickery logo" class="w-[100px]">
+            </div>
+            <ul role="navigation" class="col-start-2 row-start-1">
+                <h3 class="font-bold text-base">Sitemap</h3>
+                <li class="text-slate-400 mb-3"><a href="index.html">Homepage</a></li>
+                <li class="text-slate-400 mb-3"><a href="#products">Products</a></li>
+                <li class="text-slate-400"><a href="#">About us</a></li>
+            </ul>
+            <div class="flex flex-col items-center justify-center col-start-2 sm:col-start-3 ">
+                <h3 class="font-bold text-base w-full">Order Now!</h3>
+                <p class="text-slate-400 mb-3 w-full">Just send details to our dm</p>
+                <div class="flex  items-center sm:justify-start sm:items-start">
+                    <div class="flex justify-center items-center p-3 h-6 w-6 rounded-[50%] border border-solid border-white mr-4">
+                        <a href="https://instagram.com/sti.ckery?igshid=YjZ5dXVwdGRsdXhp" target="_blank"><i class="fa-solid fab fa-instagram"></i></a>
+                    </div>
+                    <div class="flex justify-center items-center p-3 h-6 w-6 rounded-[50%] border border-solid border-white mr-4">
+                        <a href="#"><i class="fa-solid fab fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+
+    </footer>
+
+
+    <script src="node_modules/flowbite/dist/flowbite.js"></script>
+</body>
+
+</html>
