@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+@layer {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .gradient {
+    background: rgb(42, 118, 132);
+    background: linear-gradient(
+      85deg,
+      rgba(42, 118, 132, 1) 0%,
+      rgba(105, 204, 222, 1) 35%,
+      rgba(188, 245, 255, 1) 68%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+
+  .gradient-y {
+    background: #9b7fc7;
+    background: linear-gradient(
+      180deg,
+      rgb(118, 33, 255) 0%,
+      rgb(158, 99, 252) 35%,
+      rgb(186, 148, 248) 78%,
+      rgb(255, 255, 255, 1) 100%
+    );
+  }
+}
+@font-face {
+  font-family: "Rellieva";
+  src: url(../assets/Rellieva.ttf);
+}
+
+@font-face {
+  font-family: "harlow";
+  src: url(../assets/Harlow-solid-italic.ttf);
+}
